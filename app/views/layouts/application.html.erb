@@ -9,6 +9,86 @@
   </head>
 
   <body>
+  <header class="row">
+    <div class="col-sm-9">
+      <h1 id="sign"> Sharing Biographies </h1>
+    </div>
+    <div class="col-sm-3 links">
+      <%= link_to 'Home', root_path %>
+      &nbsp;&nbsp
+      <%= link_to 'About', 'about_path' %>
+      &nbsp;&nbsp
+      <%= link_to 'Contact us', '#' %>
+    </div>
+  </header>
+
+  <br class="clear" />
+  <div class= "col-10 offset-1">
+    <h1 class="headline">Biographies</h1><br/>
+    <p class="diamond">&#9671,&#9671,&#9671,&#9671,&#9671</p>
+    <p class="diamond_two">&#9671,&#9671,&#9671</p>
+
+  </div>
+  <br class="clear">
+  <br/>
+  <div class= "col-10 offset-1">
+      <h2>Albert Einstein</h2><br />
+      <div class="row">
+        <div class="col-12 col-sm-4">
+          <%= image_tag('albert.jpg', alt: 'Albert Einstein', height: '80', width: '80', class: 'img-fluid') %>
+        </div>
+      </div>
+
+         <span>Biography:</span>
+      <p>14 March 1879 – 18 April 1955) was a German-born theoretical physicist[5] who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics).[3][6]:274 His work is also known for its influence on the philosophy of science.[7][8] He is best known to the general public for his mass–energy equivalence formula E = mc2, which has been dubbed "the world's most famous equation".[9] He received the 1921 Nobel Prize in Physics "for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect",[10] a pivotal step in the development of quantum theory.
+
+        Near the beginning of his career, Einstein thought that Newtonian mechanics was no longer enough to reconcile the laws of classical mechanics with the laws of the electromagnetic field. This led him to develop his special theory of relativity during his time at the Swiss Patent Office in Bern (1902–1909), Switzerland. However, he realized that the principle of relativity could also be extended to gravitational fields, and he published a paper on general relativity in 1916 with his theory of gravitation. He continued to deal with problems of statistical mechanics and quantum theory, which led to his explanations of particle theory and the motion of molecules. He also investigated the thermal properties of light which laid the foundation of the photon theory of light. In 1917, he applied the general theory of relativity to model the structure of the universe.[11][12]
+      </p>
+
+    </div>
+    <div class= "col-10 offset-1">
+      <%= link_to 'Add More', '#', class: 'btn btn-primary' %>
+      <%= link_to 'Mark It As Ok', '#', class: 'btn btn-primary' %>
+  </div>
+  <br class="clear"/>
+    <div class= "col-10 offset-1">
+      <h2>Thomas Edison</h2><br />
+      <div class="row">
+        <div class="col-12 col-sm-4">
+          <%= image_tag('thomas.jpg', alt: 'Thomas Edison', height: '80', width: '80', class: 'img-fluid') %>
+        </div>
+      </div>
+         <span>Biography:</span>
+      <p>(February 11, 1847 – October 18, 1931) was an American inventor and businessman, who has been described as America's greatest inventor.[1][2][3] He developed many devices that greatly influenced life around the world, including the phonograph, the motion picture camera, and the long-lasting, practical electric light bulb. Dubbed "The Wizard of Menlo Park",[4] he was one of the first inventors to apply the principles of mass production and large-scale teamwork to the process of invention, and is often credited with the creation of the first industrial research laboratory.[5]
+
+Edison was a prolific inventor, holding 1,093 US patents in his name, as well as many patents in the United Kingdom, France, and Germany. More significant than the number of Edison's patents was the widespread impact of his inventions: electric light and power utilities, sound recording, and motion pictures all established major new industries worldwide. Edison's inventions contributed to mass communication and, in particular, telecommunications. These included a stock ticker, a mechanical vote recorder, a battery for an electric car, electrical power, recorded music and motion pictures. His advanced work in these fields was an outgrowth of his early career as a telegraph operator. Edison developed a system of electric-power generation and distribution[6] to homes, businesses, and factories – a crucial development in the modern industrialized world. His first power station was on Pearl Street in Manhattan, New York.[6]
+      </p>
+
+    </div>
+    <div class= "col-10 offset-1">
+      <%= link_to 'Add More', '#', class: 'btn btn-primary' %>
+      <%= link_to 'Mark It As Ok', '#', class: 'btn btn-primary' %>
+    </div>
+
+
+
     <%= yield %>
+  <br class="clear">
+  <br/>
+  <br/>
+  <div class="footer">
+    <div class="container">
+      <div class= "row">
+        <div class= "col -10 offset-1 footer-text">
+          <p>&copy; All materials in this website are the intellectual property of Biography.com</p>
+            <p>for more biographies</p>
+              <p>reach us at:</p>
+            <span>www.biography.com/contact</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
+

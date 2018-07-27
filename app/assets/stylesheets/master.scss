@@ -1,0 +1,64 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+body {
+  background: image_url('funky-lines.png');
+}
+
+.clear {
+  clear: both;
+}
+
+.diamond {
+  text-align: center;
+}
+.diamond_two {
+  margin-top: 2px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+header {
+  border-top: 8px solid #222222;
+  border-bottom: 8px solid #d0d3d8;
+  padding: 10px 10px;
+  font-family: 'aquilinetworegular';
+
+  }
+
+#sign {
+  font-size: 16px;
+}
+
+
+.links {
+  text-align: right;
+  font-family:'aquilinetworegular';
+  font-size: 16px;
+  
+}
+.links a{
+  color: black;
+  
+}
+
+.headline {
+  color: #79a7f2;
+  text-align: center;
+  font-family: 'aquilinetworegular';
+}
+
+p {
+  font-family: "Poiret One", cursive;
+}
+
+.line {
+  width: 100px;
+}
+
+.footer-text {
+  text-align: center;
+  background-color: #333538;
+  color: #79a7f2;
+  
+}
